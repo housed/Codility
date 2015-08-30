@@ -1,3 +1,5 @@
+// 100 % : https://codility.com/demo/results/demoU53ER4-UQ7/
+
 #include <cmath>
 
 using namespace std;
