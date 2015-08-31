@@ -1,7 +1,6 @@
 // 100%, O(N): https://codility.com/demo/results/demoR6PXA2-EQJ/
 
 #include <cmath>
-#include <iostream>
 
 using namespace std;
 
@@ -32,8 +31,6 @@ int solution(vector<int> &A) {
         right_sum -= A[j];
        
         difference = abs(left_sum - right_sum);
-        
-        cout << left_sum << ' ' << right_sum << ' ' << difference << '\n';
         
         if (difference < minimal_difference) {
             minimal_difference = difference;   
